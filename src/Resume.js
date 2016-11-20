@@ -8,7 +8,7 @@ var Resume = React.createClass({
 		return (
 
 			<div>
-				<img id='resume' src='resume.png' alt='resume' st/>
+				<img id='resume' src='resume.png' alt='resume' width="100%"/>
 			</div>
 		);
 	}
