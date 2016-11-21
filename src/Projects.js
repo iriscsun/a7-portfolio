@@ -3,6 +3,8 @@ import React from 'react';
 import ProjectItem from './ProjectItem.js'
 import Baby from 'babyparse'
 import $ from 'jquery'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import './css/Project.css'
 
 // Project Component
 var Projects = React.createClass({
@@ -19,13 +21,13 @@ var Projects = React.createClass({
 
 	render() {
 		return (
-			<div>
+			<div className='container'>
 				<div className="row">
                     {this.state.projects.map(function(d, i){
                     	return (
-	                        <ProjectItem
+	                        <MuiThemeProvider><ProjectItem
 	                         	key={'project-' + i} 
-	                         	data={d} />
+	                         	data={d} /></MuiThemeProvider>
                     	)
                     })}
 		        </div>
