@@ -5,3 +5,14 @@
     margin-top:40vh;
     font-style: italic;
 }
+
+#me {
+	width: 200px;
+	border-radius: 100px;
+	display: block;
+    margin: auto;
+   
+
+}
+
+
