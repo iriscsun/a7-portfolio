@@ -12,9 +12,12 @@ var Contact = React.createClass({
 	
 	render() {
 		return (
-			<div><p id='line1'>Hi There!</p>
+			<div className='card'>
+				<p id='line1'>Hi There!</p>
 				<p id='line2'>Thanks for checking out my projects, if you want to get in touch, please shoot me an email!</p>
+				<img id='thanksgiving' src='thanksgiving.gif' alt='pic'/>
 				<p id='line3'><a href="mailto:iriscsun@gmail.com" target="_top"><button id='button' type="button"><i className="fa fa-envelope mail"></i> Send Mail</button></a></p>
+
 				
 			</div>
 		);

@@ -24,6 +24,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: 2px 2px 5px grey;
 }
 
 #button:hover {
@@ -31,4 +32,17 @@
     color:green;
     box-shadow: 2px 2px 5px grey;
 } 
+
+.card {
+    box-shadow: 2px 2px 5px grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#thanksgiving {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
 

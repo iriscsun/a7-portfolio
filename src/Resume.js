@@ -1,5 +1,6 @@
 // Page of quotes to show
 import React from 'react';
+import './css/Resume.css'
 
 // PageOne Component
 var Resume = React.createClass({
@@ -7,7 +8,7 @@ var Resume = React.createClass({
 	render() {
 		return (
 
-			<div>
+			<div className='resume'>
 				<img id='resume' src='resume.png' alt='resume' width="100%"/>
 			</div>
 		);
