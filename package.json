@@ -2,6 +2,7 @@
   "name": "a7-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://students.washington.edu/iriscsun/info343/build",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
@@ -15,13 +16,12 @@
     "react-dom": "^15.3.2",
     "react-materialize": "*",
     "react-router": "^3.0.0",
-    "react-tap-event-plugin": "^1.0.0"
+    "react-tap-event-plugin": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "homepage": "http://students.washington.edu/iriscsun/INFO343/a7-portfolio"
+  }
 }
